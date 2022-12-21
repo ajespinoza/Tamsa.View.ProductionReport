@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tamsa.View.ProductionReport.Browser", "source\app\Tamsa.View.ProductionReport.Browser\Tamsa.View.ProductionReport.Browser.csproj", "{0D156581-EB49-4964-A903-3E7BF54A8B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tamsa.View.ProductionReport.View", "source\app\Tamsa.View.ProductionReport.View\Tamsa.View.ProductionReport.View.csproj", "{186BECE1-E9C7-47D6-BC71-EF836ECE3D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tamsa.View.ProductionReport.Model", "source\lib\Tamsa.View.ProductionReport.Model\Tamsa.View.ProductionReport.Model.csproj", "{4DB691A9-39C6-4E51-B775-8931BCA3FE57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tamsa.View.ProductionReport.ViewModel", "source\lib\Tamsa.View.ProductionReport.ViewModel\Tamsa.View.ProductionReport.ViewModel.csproj", "{AA2AEFFC-7FDD-4612-B409-3BE952722C97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D156581-EB49-4964-A903-3E7BF54A8B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D156581-EB49-4964-A903-3E7BF54A8B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D156581-EB49-4964-A903-3E7BF54A8B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D156581-EB49-4964-A903-3E7BF54A8B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186BECE1-E9C7-47D6-BC71-EF836ECE3D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186BECE1-E9C7-47D6-BC71-EF836ECE3D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186BECE1-E9C7-47D6-BC71-EF836ECE3D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186BECE1-E9C7-47D6-BC71-EF836ECE3D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB691A9-39C6-4E51-B775-8931BCA3FE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB691A9-39C6-4E51-B775-8931BCA3FE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB691A9-39C6-4E51-B775-8931BCA3FE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB691A9-39C6-4E51-B775-8931BCA3FE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2AEFFC-7FDD-4612-B409-3BE952722C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2AEFFC-7FDD-4612-B409-3BE952722C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2AEFFC-7FDD-4612-B409-3BE952722C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2AEFFC-7FDD-4612-B409-3BE952722C97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

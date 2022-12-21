@@ -1,0 +1,19 @@
+﻿<Window x:Class="Tamsa.View.ProductionReport.Browser.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ui="clr-namespace:Tenaris.Library.UI.WPF;assembly=Tenaris.Library.UI.WPF"
+    xmlns:viewModels="clr-namespace:Tamsa.View.ProductionReport.ViewModel;assembly=Tamsa.View.ProductionReport.ViewModel"
+    xmlns:resx="clr-namespace:Tamsa.View.ProductionReport.View.Resources;assembly=Tamsa.View.ProductionReport.View"
+    xmlns:views="clr-namespace:Tamsa.View.ProductionReport.View;assembly=Tamsa.View.ProductionReport.View"
+    ui:Window.UseDynamicStretch="False" 
+    ui:Window.ShowTitleZone="True" Top="0"
+    Title="{Binding ApplicationTitle}"
+    Style="{StaticResource TenarisWindow}">
+    <DockPanel>
+            <views:BrowserView>
+                <views:BrowserView.DataContext>
+                    <viewModels:BrowserViewModel />
+                </views:BrowserView.DataContext>
+           </views:BrowserView>
+    </DockPanel>
+</Window>

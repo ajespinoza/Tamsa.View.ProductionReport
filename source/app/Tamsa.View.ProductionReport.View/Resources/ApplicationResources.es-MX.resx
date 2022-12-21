@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptButton" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Aplicación de Salida</value>
+    <comment>Application title</comment>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Area</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Basket" xml:space="preserve">
+    <value>Bancal</value>
+    <comment>Label</comment>
+  </data>
+  <data name="BasketNumber" xml:space="preserve">
+    <value>Número Bancal</value>
+    <comment>Label</comment>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancelar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="CloseButton" xml:space="preserve">
+    <value>Cerrar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Cerrado</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ComplianceGraphTitle" xml:space="preserve">
+    <value>Gráfico de Cumplimiento</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ConfirmButton" xml:space="preserve">
+    <value>Confirmar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="CopyNumber" xml:space="preserve">
+    <value>Número de copias</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Fecha</value>
+    <comment>Label</comment>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Borrar Atado</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="DeleteTrackingButton" xml:space="preserve">
+    <value>Borrar Pieza</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="DestinyTrackingGroup" xml:space="preserve">
+    <value>Atado Destino</value>
+    <comment>Title</comment>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Deshabilitado</value>
+    <comment>Label</comment>
+  </data>
+  <data name="EditButton" xml:space="preserve">
+    <value>Editar Atado</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="ElaborationState" xml:space="preserve">
+    <value>Estado de Elab.</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Habilitado</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Exceeded" xml:space="preserve">
+    <value>Excedido</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ExitManagementTab" xml:space="preserve">
+    <value>Gestión</value>
+    <comment>Tab title</comment>
+  </data>
+  <data name="ExitStatusTab" xml:space="preserve">
+    <value>Estatus</value>
+    <comment>Tab title</comment>
+  </data>
+  <data name="FinishButton" xml:space="preserve">
+    <value>Terminar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Terminado</value>
+    <comment>Label</comment>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Desde:</value>
+    <comment>Label</comment>
+  </data>
+  <data name="HistoricExportButton" xml:space="preserve">
+    <value>Exportar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="HistoricPrintButton" xml:space="preserve">
+    <value>Imprimir</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="HistoricTab" xml:space="preserve">
+    <value>Histórico</value>
+    <comment>Tab title</comment>
+  </data>
+  <data name="InProcess" xml:space="preserve">
+    <value>En proceso</value>
+    <comment>Label</comment>
+  </data>
+  <data name="InsertButton" xml:space="preserve">
+    <value>Insertar Atado</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="InsertTrackingButton" xml:space="preserve">
+    <value>Insertar Pieza</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="ITSendStatus" xml:space="preserve">
+    <value>Estatus envío IT:</value>
+    <comment>Legend title</comment>
+  </data>
+  <data name="ITSendStatusError" xml:space="preserve">
+    <value>Error</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="ITSendStatusOK" xml:space="preserve">
+    <value>OK</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="ITSendStatusPending" xml:space="preserve">
+    <value>Pendiente</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Longitud [m]</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Loaded" xml:space="preserve">
+    <value>Carg.</value>
+    <comment>Label</comment>
+  </data>
+  <data name="LotNumber" xml:space="preserve">
+    <value>Número Lote</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Max.</value>
+    <comment>Label</comment>
+  </data>
+  <data name="MessageDeleteTracking" xml:space="preserve">
+    <value>¿Esta seguro de borrar las piezas seleccionadas?</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageDeleteTrackingGroup" xml:space="preserve">
+    <value>¿Esta seguro de borrar los atados seleccionados?</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MoveTrackingButton" xml:space="preserve">
+    <value>Mover Piezas</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="NonAssingPieces" xml:space="preserve">
+    <value>Piezas no asignadas</value>
+    <comment>Label</comment>
+  </data>
+  <data name="PendingPieces" xml:space="preserve">
+    <value>Piezas pendientes</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Pieces" xml:space="preserve">
+    <value>Piezas</value>
+    <comment>Label</comment>
+  </data>
+  <data name="PrintButton" xml:space="preserve">
+    <value>Imprimir Atado</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="PrinterDisabled" xml:space="preserve">
+    <value>Deshabilitada</value>
+    <comment>Label</comment>
+  </data>
+  <data name="PrinterEnabled" xml:space="preserve">
+    <value>Habilitada</value>
+    <comment>Label</comment>
+  </data>
+  <data name="PrinterName" xml:space="preserve">
+    <value>Nombre</value>
+    <comment>Label</comment>
+  </data>
+  <data name="PrinterStatus" xml:space="preserve">
+    <value>Estado</value>
+    <comment>Label</comment>
+  </data>
+  <data name="PrinterTitle" xml:space="preserve">
+    <value>Impresora</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ProductInformationTitle" xml:space="preserve">
+    <value>Información de Producto</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ProductionDate" xml:space="preserve">
+    <value>Fecha Producción</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ProductionTrackingsGroup" xml:space="preserve">
+    <value>Probetas a Cortar</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ProductsInformationTitle" xml:space="preserve">
+    <value>Información de Productos en Turno</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ProductStatus" xml:space="preserve">
+    <value>Estatus de producto:</value>
+    <comment>Legend title</comment>
+  </data>
+  <data name="ProductStatusFinished" xml:space="preserve">
+    <value>Terminado</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="ProductStatusInProcess" xml:space="preserve">
+    <value>En Proceso</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="ProductStatusPending" xml:space="preserve">
+    <value>Pendiente</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="ReportInformation" xml:space="preserve">
+    <value>Información Histórica</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ResetButton" xml:space="preserve">
+    <value>Limpiar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="ReworkedTrackingsGroup" xml:space="preserve">
+    <value>Atados Reproceso</value>
+    <comment>Title</comment>
+  </data>
+  <data name="SearchButton" xml:space="preserve">
+    <value>Buscar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Buscar por:</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectByTrackingGroup" xml:space="preserve">
+    <value>Selecciónar por capacidad de atado</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SelectedTracking" xml:space="preserve">
+    <value>Piezas seleccionadas</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SendButton" xml:space="preserve">
+    <value>Enviar Atado</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="SendProductButton" xml:space="preserve">
+    <value>Enviar</value>
+    <comment>Button title</comment>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>Turno</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Shifts" xml:space="preserve">
+    <value>Turno:</value>
+    <comment>Label</comment>
+  </data>
+  <data name="SourceTrackingGroup" xml:space="preserve">
+    <value>Atado Origen</value>
+    <comment>Title</comment>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Hasta:</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Traceability" xml:space="preserve">
+    <value>Tipo Traceabilidad</value>
+    <comment>Label</comment>
+  </data>
+  <data name="TrackingGroup" xml:space="preserve">
+    <value>Atado</value>
+    <comment>Label</comment>
+  </data>
+  <data name="TrackingGroupDetail" xml:space="preserve">
+    <value>Detalle de Atado</value>
+    <comment>Title</comment>
+  </data>
+  <data name="TrackingGroupStatus" xml:space="preserve">
+    <value>Estatus Atado:</value>
+    <comment>Legend title</comment>
+  </data>
+  <data name="TrackingGroupStatusITSendError" xml:space="preserve">
+    <value>Error Envío IT</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="TrackingGroupStatusITSendOK" xml:space="preserve">
+    <value>OK Envío IT</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="TrackingGroupStatusITSendPending" xml:space="preserve">
+    <value>Pendiente Envío IT</value>
+    <comment>Legend label</comment>
+  </data>
+  <data name="TrackingNumber" xml:space="preserve">
+    <value>Número de Pieza</value>
+    <comment>Label</comment>
+  </data>
+  <data name="TrackingsDetail" xml:space="preserve">
+    <value>Detalle de Piezas</value>
+    <comment>Title</comment>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso [ton]</value>
+    <comment>Label</comment>
+  </data>
+  <data name="PrintTrackingGroupTitle" xml:space="preserve">
+    <value>Imprimir Etiqueta de Atado</value>
+    <comment>Title</comment>
+  </data>
+  <data name="SendTrackingGroupTitle" xml:space="preserve">
+    <value>Enviar Atado</value>
+    <comment>Title</comment>
+  </data>
+  <data name="EditTrackingGroupTitle" xml:space="preserve">
+    <value>Editar Atado</value>
+    <comment>Title</comment>
+  </data>
+  <data name="InsertTrackingGroupTitle" xml:space="preserve">
+    <value>Insertar Atado</value>
+    <comment>Title</comment>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Ubicación</value>
+    <comment>Label</comment>
+  </data>
+  <data name="InsertTrackingTitle" xml:space="preserve">
+    <value>Insertar Pieza</value>
+    <comment>Title</comment>
+  </data>
+  <data name="MoveTrackingTitle" xml:space="preserve">
+    <value>Mover Pieza</value>
+    <comment>Label</comment>
+  </data>
+  <data name="LoadedPiecesTitle" xml:space="preserve">
+    <value>Piezas Cargadas:</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ProducedPiecesTitle" xml:space="preserve">
+    <value>Piezas Procesadas:</value>
+    <comment>Title</comment>
+  </data>
+  <data name="ProgrammedPiecesTitle" xml:space="preserve">
+    <value>Piezas Programadas:</value>
+    <comment>Title</comment>
+  </data>
+  <data name="RejectProduct" xml:space="preserve">
+    <value>Descarte</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ReworkProduct" xml:space="preserve">
+    <value>Reproceso</value>
+    <comment>Label</comment>
+  </data>
+  <data name="ScrapProduct" xml:space="preserve">
+    <value>Chatarra</value>
+    <comment>Label</comment>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todos</value>
+    <comment>Label</comment>
+  </data>
+  <data name="MessageSelectedZone" xml:space="preserve">
+    <value>¡Debe seleccionar un bancal!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pendiente</value>
+    <comment>Label</comment>
+  </data>
+  <data name="TrackingStatus" xml:space="preserve">
+    <value>Estatus</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+    <comment>Label</comment>
+  </data>
+  <data name="Specific" xml:space="preserve">
+    <value>Específico</value>
+    <comment>Label</comment>
+  </data>
+  <data name="RejectionCode" xml:space="preserve">
+    <value>Código Rechazo</value>
+    <comment>Label</comment>
+  </data>
+  <data name="TrackingID" xml:space="preserve">
+    <value>ID Pieza</value>
+    <comment>Label</comment>
+  </data>
+  <data name="MessageWarningSelectedTrackingGroup" xml:space="preserve">
+    <value>¡Debe seleccionar un registro  a la vez para  esta operación!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningSelectedTracking" xml:space="preserve">
+    <value>¡No existen piezas seleccionadas!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningSelectedZone" xml:space="preserve">
+    <value>¡Debe seleccionar un bancal especifico para ejecutar esta operación!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningNonExistProduct" xml:space="preserve">
+    <value>¡No existe un producto en proceso!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comentarios</value>
+    <comment>Label</comment>
+  </data>
+  <data name="MessageWarningMissingField" xml:space="preserve">
+    <value>¡El codigo de rechazo o la cantidad de piezas no fue indicado, la transacción será cancelada!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningExceededPieces" xml:space="preserve">
+    <value>¡La cantidad de piezas es mayor a las soportadas por el atado o no hay piezas disponibles para formarlo!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningSelectedTrackingGroupInProcess" xml:space="preserve">
+    <value>¡No es posible seleccionar el atado en este estado para esta acción!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningTrackingGroupSent" xml:space="preserve">
+    <value>¡El atado ya fue enviado a IT y ya se tiene un numero de atado!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningTrackingGroupNonSent" xml:space="preserve">
+    <value>¡El atado no ha sido enviado a IT!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="CloseTrackingGroupButton" xml:space="preserve">
+    <value>Cerrar Atado</value>
+    <comment>Button</comment>
+  </data>
+  <data name="MessageCloseTrackingGroup" xml:space="preserve">
+    <value>¿Esta seguro de cerrar el atado en proceso?</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MessageWarningSelectedTrackingGroupPending" xml:space="preserve">
+    <value>¡No es posible seleccionar el atado en este estado para esta acción!</value>
+    <comment>Message</comment>
+  </data>
+  <data name="MaximumToLoad" xml:space="preserve">
+    <value>Máximo</value>
+    <comment>Label</comment>
+  </data>
+</root>

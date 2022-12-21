@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Gaffney-Kroese Electrical Supply Corp</LicensedTo>
+    <LicenseType>Site OEM Subscription</LicenseType>
+    <LicenseNote>Limited to 10 developers</LicenseNote>
+    <OrderID>101124152837</OrderID>
+    <OEM>This is a redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Cells for .NET</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>0cdc144b-6228-4dcc-a11c-dffe95e90c24</SerialNumber>
+    <SubscriptionExpiry>20111124</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>ZbTcQ55c3pFs5gfmRf7dvh3K8sU3EcXwqSOANenB/tntCE2UN51cXoNt5YkPgOFPeUpKJdj+iDicfvOQ5eGhe73OmjnsldtwssonV6DT+dSshutmGg7TCgfCUnVVPjCkvEblFN6nj2InnVNKfgVjnpN7WBVLipoiM0EZCsEeZYI=</Signature>
+</License>

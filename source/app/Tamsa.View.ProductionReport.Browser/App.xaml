@@ -1,0 +1,27 @@
+﻿<Application x:Class="Tamsa.View.ProductionReport.Browser.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModels="clr-namespace:Tamsa.View.ProductionReport.ViewModel;assembly=Tamsa.View.ProductionReport.ViewModel"
+    xmlns:views="clr-namespace:Tamsa.View.ProductionReport.View;assembly=Tamsa.View.ProductionReport.View"
+    xmlns:resx="clr-namespace:Tamsa.View.ProductionReport.View.Resources;assembly=Tamsa.View.ProductionReport.View"
+    StartupUri="MainWindow.xaml" Startup="Application_Startup">
+    <Application.Resources>
+       <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="/Tenaris.Library.UI.WPF;component/Themes/Generic.xaml" />
+                    <ResourceDictionary Source="/Tamsa.View.ProductionReport.View;component/Themes/ImageDictionary.xaml" />
+                    <ResourceDictionary Source="/Tamsa.View.ProductionReport.View;component/Themes/ApplicationDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <ObjectDataProvider x:Key="ApplicationResources" ObjectType="{x:Type resx:ApplicationResources}"/>
+            <ObjectDataProvider x:Key="CenterResources" ObjectType="{x:Type resx:CenterResources}"/>
+        
+            <DataTemplate DataType="{x:Type viewModels:BrowserViewModel}">
+                <views:BrowserView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModels:KeysViewModel}">
+                <views:KeysView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

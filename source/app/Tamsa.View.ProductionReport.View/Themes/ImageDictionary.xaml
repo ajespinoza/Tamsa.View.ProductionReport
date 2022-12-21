@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <BitmapImage x:Key="Icon_Inprocess" UriSource="/Tamsa.View.ProductionReport.View;component/Images/icon_inprocess.png" />
+  <BitmapImage x:Key="Icon_Scrap" UriSource="/Tamsa.View.ProductionReport.View;component/Images/icon_scrap.png" />
+  <BitmapImage x:Key="Icon_Rework" UriSource="/Tamsa.View.ProductionReport.View;component/Images/icon_rework.png" />
+</ResourceDictionary>

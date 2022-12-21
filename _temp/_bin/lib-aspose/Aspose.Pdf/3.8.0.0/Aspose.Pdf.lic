@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License>
+  <Data>
+    <LicensedTo>Gaffney-Kroese Electrical Supply Corp</LicensedTo>
+    <LicenseType>Site OEM Subscription</LicenseType>
+    <LicenseNote>Limited to 10 developers</LicenseNote>
+    <OrderID>101124152837</OrderID>
+    <OEM>This is a redistributable license</OEM>
+    <Products>
+      <Product>Aspose.Pdf for .NET</Product>
+    </Products>
+    <EditionType>Enterprise</EditionType>
+    <SerialNumber>5d8ec8ab-9f43-4573-be3a-56142a98defc</SerialNumber>
+    <SubscriptionExpiry>20111124</SubscriptionExpiry>
+    <LicenseVersion>2.2</LicenseVersion>
+  </Data>
+  <Signature>AYx5u5wacFxQ0XnvG7HKWguDSnZ2w7qWi+ecIyRq70X1hhW3JIZq4K2ShGcKApr59sJQ0ly0/J2qpebz9AzbBSnn1H4guMWALzkqpwIGQBc65EBkgkw9+tjJz6qKaJO6Tvc97tGMA7KH/ZmVRZsjU1i3MOXhbKkasDriR/3FwBQ=</Signature>
+</License>

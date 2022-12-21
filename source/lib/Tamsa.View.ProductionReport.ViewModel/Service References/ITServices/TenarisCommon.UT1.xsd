@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TenarisCommon.UT" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TenarisCommon.UT" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/TenarisCommon.Stock" />
+  <xs:complexType name="Defect">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/TenarisCommon.Stock" base="q1:StockItem">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Confirmation" type="xs:boolean" />
+          <xs:element minOccurs="0" name="DefectType" type="tns:DefectTypes" />
+          <xs:element minOccurs="0" name="Depth" type="xs:float" />
+          <xs:element minOccurs="0" name="InspectionClass" type="tns:InspectionClasses" />
+          <xs:element minOccurs="0" name="Length" type="xs:float" />
+          <xs:element minOccurs="0" name="PipeName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ProductSegment" type="tns:ProductSegments" />
+          <xs:element minOccurs="0" name="Thickness" type="xs:float" />
+          <xs:element minOccurs="0" name="Ubication" type="tns:Ubications" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Defect" nillable="true" type="tns:Defect" />
+  <xs:simpleType name="DefectTypes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="R" />
+      <xs:enumeration value="C" />
+      <xs:enumeration value="X" />
+      <xs:enumeration value="O" />
+      <xs:enumeration value="E" />
+      <xs:enumeration value="A" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DefectTypes" nillable="true" type="tns:DefectTypes" />
+  <xs:simpleType name="InspectionClasses">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="P" />
+      <xs:enumeration value="F" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="InspectionClasses" nillable="true" type="tns:InspectionClasses" />
+  <xs:simpleType name="ProductSegments">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="IF" />
+      <xs:enumeration value="L5" />
+      <xs:enumeration value="NA" />
+      <xs:enumeration value="PI" />
+      <xs:enumeration value="SI" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ProductSegments" nillable="true" type="tns:ProductSegments" />
+  <xs:simpleType name="Ubications">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="C" />
+      <xs:enumeration value="B" />
+      <xs:enumeration value="P" />
+      <xs:enumeration value="E" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Ubications" nillable="true" type="tns:Ubications" />
+  <xs:complexType name="InspectionGroup">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/TenarisCommon.Stock" base="q2:StockGroup">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CV" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Entry" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InspectionMnemonic" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="InspectionMnemonicSpecial" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LoadType" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="InspectionGroup" nillable="true" type="tns:InspectionGroup" />
+</xs:schema>

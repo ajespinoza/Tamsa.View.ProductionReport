@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b2228ca5-aaee-42e2-9723-faa2d9c786e4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://10.92.25.121:33333/ITService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="e123a1de-845a-4123-afc7-2880353617d7" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="d3855267-b39e-42d1-8b9f-eb85e7c5225b" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="987d5ca2-dbd7-4170-a2f0-ac315f809f61" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Programming.ProductData.xsd" MetadataType="Schema" ID="feb23ce6-029b-4a69-ae2b-b60f2fd63376" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="3d3b82e8-7e0e-4dbe-9bcf-fb84c1001704" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Programming.Program.xsd" MetadataType="Schema" ID="d55d5fa0-cf36-41e5-b41b-c59db520abb7" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Process.xsd" MetadataType="Schema" ID="21dcb939-d7c2-40bd-818e-bb080f811a83" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.xsd" MetadataType="Schema" ID="9ab5b2e5-655b-4aef-a946-d38a7f85f5af" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Stock.xsd" MetadataType="Schema" ID="35b7630f-a514-4af3-8e06-eac73630d6f7" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Measurement.xsd" MetadataType="Schema" ID="24581c31-0f4a-44ce-8e52-05b9b7ce8e50" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.UT1.xsd" MetadataType="Schema" ID="36148c7c-cfd0-4a48-8906-6c974f28a458" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Objects.xsd" MetadataType="Schema" ID="8feea9d1-e250-41f3-9be8-51562ba84c4c" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Delays.xsd" MetadataType="Schema" ID="891d4da1-e62e-4b7e-a0af-71974108a300" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.SpecData.xsd" MetadataType="Schema" ID="c3807735-0551-40a5-8901-2d70205cbcd1" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+    <MetadataFile FileName="TenarisCommon.Chemical.xsd" MetadataType="Schema" ID="051aed44-81bc-4719-a641-db4d9fab5e34" SourceId="1" SourceUrl="net.tcp://10.92.25.121:33333/ITService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
